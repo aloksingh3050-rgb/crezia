@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crezia - Professional SEO & Content Analysis Suite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Crezia</h1>
+                    <span class="tagline">SEO Suite</span>
+                </div>
+                <nav class="nav">
+                    <div class="user-info" id="userInfo" style="display: none;">
+                        <span id="userName"></span>
+                        <span class="usage-counter" id="usageCounter"></span>
+                        <button class="btn btn--sm btn--outline" id="logoutBtn">Logout</button>
+                    </div>
+                    <div class="auth-buttons" id="authButtons">
+                        <button class="btn btn--sm btn--outline" id="loginBtn">Login</button>
+                        <button class="btn btn--sm btn--primary" id="signupBtn">Sign Up</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional SEO & Content Analysis Suite</h1>
+                <p>Advanced SEO tools for modern marketers and content creators. Boost your rankings with our comprehensive analysis platform.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Websites Analyzed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500K+</span>
+                        <span class="stat-label">Keywords Researched</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Happy Users</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools-section" id="toolsSection">
+        <div class="container">
+            <h2>SEO Tools Suite</h2>
+            <div class="tools-grid">
+                <div class="tool-card" data-tool="keyword-research">
+                    <div class="tool-icon">🔍</div>
+                    <h3>Keyword Research</h3>
+                    <p>Search volume, difficulty, CPC analysis with trend charts</p>
+                    <button class="btn btn--primary tool-btn">Use Tool</button>
+                </div>
+                <div class="tool-card" data-tool="seo-score">
+                    <div class="tool-icon">📊</div>
+                    <h3>Website SEO Score</h3>
+                    <p>Complete technical SEO analysis with actionable recommendations</p>
+                    <button class="btn btn--primary tool-btn">Use Tool</button>
+                </div>
+                <div class="tool-card" data-tool="plagiarism">
+                    <div class="tool-icon">📝</div>
+                    <h3>Plagiarism Checker</h3>
+                    <p>Content originality detection with source identification</p>
+                    <button class="btn btn--primary tool-btn">Use Tool</button>
+                </div>
+                <div class="tool-card" data-tool="grammar">
+                    <div class="tool-icon">✍️</div>
+                    <h3>Grammar Fixer</h3>
+                    <p>Real-time grammar and spelling corrections</p>
+                    <button class="btn btn--primary tool-btn">Use Tool</button>
+                </div>
+                <div class="tool-card" data-tool="backlinks">
+                    <div class="tool-icon">🔗</div>
+                    <h3>Backlink Analysis</h3>
+                    <p>Domain authority and link quality assessment</p>
+                    <button class="btn btn--primary tool-btn">Use Tool</button>
+                </div>
+                <div class="tool-card" data-tool="content">
+                    <div class="tool-icon">📈</div>
+                    <h3>Content Optimizer</h3>
+                    <p>SEO content optimization with keyword suggestions</p>
+                    <button class="btn btn--primary tool-btn">Use Tool</button>
+                </div>
+                <div class="tool-card" data-tool="competitor">
+                    <div class="tool-icon">⚔️</div>
+                    <h3>Competitor Analysis</h3>
+                    <p>Multi-domain comparison and gap analysis</p>
+                    <button class="btn btn--primary tool-btn">Use Tool</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Founder Section -->
+    <section class="founder-section">
+        <div class="container">
+            <div class="founder-content">
+                <div class="founder-image">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=" alt="Alok Kumar Singh">
+                </div>
+                <div class="founder-text">
+                    <h2>Meet the Founder</h2>
+                    <h3>Alok Kumar Singh</h3>
+                    <p class="founder-title">Founder & CEO, Crezia</p>
+                    <p class="founder-bio">Digital entrepreneur, content innovator, and passionate builder of scalable web businesses. My mission: Empower creators and startups with world-class online tools that are affordable, accessible, and user-first.</p>
+                    <div class="founder-stats">
+                        <div class="founder-stat">
+                            <span>5+</span>
+                            <label>Years Experience</label>
+                        </div>
+                        <div class="founder-stat">
+                            <span>50K+</span>
+                            <label>Users Served</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Crezia</h3>
+                    <p>Professional SEO & Content Analysis Suite</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#" target="_blank">Features</a></li>
+                            <li><a href="#" target="_blank">Pricing</a></li>
+                            <li><a href="#" target="_blank">API</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#" target="_blank">Help Center</a></li>
+                            <li><a href="#" target="_blank">Contact</a></li>
+                            <li><a href="#" target="_blank">Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Crezia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal hidden" id="loginModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Login to Crezia</h2>
+                <button class="modal-close" id="loginClose">&times;</button>
+            </div>
+            <form class="modal-body" id="loginForm">
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" id="loginPassword" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                </div>
+                <p class="modal-footer-text">Demo: demo@crezia.com / demo123</p>
+                <p class="modal-footer-text">Premium: premium@crezia.com / premium123</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal hidden" id="signupModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Sign Up for Crezia</h2>
+                <button class="modal-close" id="signupClose">&times;</button>
+            </div>
+            <form class="modal-body" id="signupForm">
+                <div class="form-group">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn--primary btn--full-width">Create Account</button>
+                </div>
+                <p class="modal-footer-text">Free plan: 10 uses per day</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tool Modal -->
+    <div class="modal hidden" id="toolModal">
+        <div class="modal-content modal-content--large">
+            <div class="modal-header">
+                <h2 id="toolModalTitle">Tool</h2>
+                <button class="modal-close" id="toolClose">&times;</button>
+            </div>
+            <div class="modal-body" id="toolModalBody">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay hidden" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <p>Processing your request...</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
